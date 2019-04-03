@@ -1,2 +1,2 @@
-# demo testing app
+# demo tes
 CI
