@@ -10,8 +10,8 @@ public class TestApp {
 	public static void main(String[] args) throws Exception {
 		TestNG testng = new TestNG();
         List<String> suites = Lists.newArrayList();
-//        String str = "src/main/resources/test1.xml";
-        String str = null;
+        String str = "src/main/resources/test1.xml";
+        /*String str = null;
         if (args[0].equalsIgnoreCase("Test1")) {
     		str = "C:\\Users\\agarwam\\eclipse-workspace\\WebDriverTest\\src\\main\\resources\\test1.xml"; //Use while running Jar
     		System.out.println("Test1");
@@ -21,7 +21,7 @@ public class TestApp {
     		str = "C:\\Users\\agarwam\\eclipse-workspace\\WebDriverTest\\src\\main\\resources\\test2.xml"; //Use while running Jar
 //    		String str = "src/main/resources/test2.xml"; //Use while running as Java app
     		System.out.println("Test2");
-        }
+        }*/
         suites.add(str);
         testng.setTestSuites(suites);
         testng.run();
