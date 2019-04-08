@@ -11,7 +11,7 @@ public class Testing2 {
 	WebDriver driver = WebDriverService.getDriver();
 	
 	@Test
-	public void test() {
+	public void test2() {
 		driver.get("https://www.linkedin.com/");
 		assertEquals(driver.getTitle(), "LinkedIn: Log In or Sign Up");
 		Reporter.log("LinkedIn is running");

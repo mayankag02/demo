@@ -11,7 +11,7 @@ public class Testing1 {
 	WebDriver driver = WebDriverService.getDriver();
 	
 	@Test
-	public void test() {
+	public void test1() {
 		driver.get("https://www.google.com/");
 		assertEquals(driver.getTitle(), "Google");
 		Reporter.log("Google is running");
