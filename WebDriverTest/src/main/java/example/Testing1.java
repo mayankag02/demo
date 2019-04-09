@@ -9,9 +9,9 @@ public class Testing1 {
 
 	@Test
 	public void test1() throws InterruptedException {
-		WebDriverService.getDriver().get("https://www.youtube.com/");
+		WebDriverService.getDriver().get("https://www.google.com/");
 		Thread.sleep(1000);
-		assertEquals(WebDriverService.getDriver().getTitle(), "YouTube");
-		Reporter.log("YouTube is running!");
+		assertEquals(WebDriverService.getDriver().getTitle(), "Google");
+		Reporter.log("Google is running!");
 	}
 }
