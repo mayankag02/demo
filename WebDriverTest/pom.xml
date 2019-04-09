@@ -39,7 +39,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>example.App</mainClass>
+							<mainClass>example.TestApp</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
