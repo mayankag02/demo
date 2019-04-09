@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Yahoo is running!]]>
+      <![CDATA[YouTube is running!]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="14743" started-at="2019-04-09T03:32:59Z" finished-at="2019-04-09T03:33:14Z">
+  <suite name="Suite" duration-ms="2747" started-at="2019-04-09T15:44:17Z" finished-at="2019-04-09T15:44:20Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="14743" started-at="2019-04-09T03:32:59Z" finished-at="2019-04-09T03:33:14Z">
+    <test name="Test" duration-ms="2747" started-at="2019-04-09T15:44:17Z" finished-at="2019-04-09T15:44:20Z">
       <class name="example.WebDriverService">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:example.WebDriverService@27abe2cd]" name="beforeSuite" is-config="true" duration-ms="2100" started-at="2019-04-09T03:32:57Z" finished-at="2019-04-09T03:32:59Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:example.WebDriverService@27abe2cd]" name="beforeSuite" is-config="true" duration-ms="2201" started-at="2019-04-09T15:44:15Z" finished-at="2019-04-09T15:44:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:example.WebDriverService@27abe2cd]" name="afterSuite" is-config="true" duration-ms="614" started-at="2019-04-09T03:33:14Z" finished-at="2019-04-09T03:33:14Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:example.WebDriverService@27abe2cd]" name="afterSuite" is-config="true" duration-ms="607" started-at="2019-04-09T15:44:20Z" finished-at="2019-04-09T15:44:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- example.WebDriverService -->
-      <class name="example.Testing2">
-        <test-method status="PASS" signature="test2()[pri:0, instance:example.Testing2@5f5a92bb]" name="test2" duration-ms="14733" started-at="2019-04-09T03:32:59Z" finished-at="2019-04-09T03:33:14Z">
+      <class name="example.Testing1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:example.Testing1@5f5a92bb]" name="test1" duration-ms="2737" started-at="2019-04-09T15:44:17Z" finished-at="2019-04-09T15:44:20Z">
           <reporter-output>
             <line>
-              <![CDATA[Yahoo is running!]]>
+              <![CDATA[YouTube is running!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- example.Testing2 -->
+        </test-method> <!-- test1 -->
+      </class> <!-- example.Testing1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
