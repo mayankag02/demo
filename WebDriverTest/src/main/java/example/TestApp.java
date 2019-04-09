@@ -11,12 +11,12 @@ public class TestApp {
 		TestNG testng = new TestNG();
         List<String> suites = Lists.newArrayList();
 
-        String str = null;
+        String str;
         if (args[0].equalsIgnoreCase("Test1")) {
     		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test1.xml";
 //    		str = "src/main/resources/test1.xml";
         }
-        else if (args[0].equalsIgnoreCase("Test2")) {
+        else  {
     		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test2.xml";
 //    		str = "src/main/resources/test2.xml";
         }
