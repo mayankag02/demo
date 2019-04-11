@@ -13,12 +13,12 @@ public class TestApp {
 
         String str = null;
         if (args[0].equalsIgnoreCase("Test1")) {
-    		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test1.xml";
-//    		str = "src/main/resources/test1.xml";
+//    		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test1.xml";
+    		str = "WebDriverTest/src/main/resources/test1.xml";
         }
         else if (args[0].equalsIgnoreCase("Test2")) {
-    		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test2.xml";
-//    		str = "src/main/resources/test2.xml";
+//    		str = "C:\\Users\\agarwam\\git\\demo\\WebDriverTest\\src\\main\\resources\\test2.xml";
+    		str = "WebDriverTest/src/main/resources/test2.xml";
         }
         suites.add(str);
         testng.setTestSuites(suites);
