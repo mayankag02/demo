@@ -5,6 +5,7 @@
 	<groupId>WebDriverTest</groupId>
 	<artifactId>WebDriverTest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 
 	<dependencies>
 
